@@ -5,7 +5,7 @@
 
 console.log("Script.js Version 1.2");
 console.log("index.html Version 1.1");
-console.log("style.css Version 1.2");
+console.log("style.css Version 1.3");
 console.log("SnowScript.js Version 1.1");
 
 const sheetMusic = [
