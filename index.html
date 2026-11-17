@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PSMBR | Sheet Music Library</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Scripts -->
+    <script src="SnowScript.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="header">
+
+        <div class="nav-container">
+
+            <a href="#" class="logo">
+                <span class="logo-main">PSMBR</span>
+                <span class="logo-sub">PIANO SHEET MUSIC FOR BALLET REPERTOIRE</span>
+            </a>
+
+            <nav class="navigation">
+
+                <a href="#collection" class="active">Library</a>
+
+                <button class="snow-toggle" id="snowToggle" type="button">
+                    <span class="snow-icon">✳</span>
+                    <span id="snowLabel">Snowfall On</span>
+
+                    <span class="toggle-track">
+                        <span class="toggle-knob"></span>
+                    </span>
+                </button>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <!-- Library Heading -->
+        <section class="library-heading" id="collection">
+
+            <div class="section-label">
+                <span></span>
+                THE PSMBR COLLECTION
+                <span></span>
+            </div>
+
+            <h1>
+                Sheet Music <em>Library</em>
+            </h1>
+
+            <p>
+                Explore the collection of piano scores for classical
+                ballet repertoire, variations and performances.
+            </p>
+
+            <div class="heading-divider"></div>
+
+        </section>
+
+
+        <!-- Collection -->
+        <section class="collection-section">
+
+            <div class="collection-top">
+
+                <div>
+                    <div class="section-label left-label">EXPLORE THE REPERTOIRE</div>
+                    <h2>Available <em>Scores</em></h2>
+                </div>
+
+                <p id="collectionCount">0 SCORES</p>
+
+            </div>
+
+
+            <!-- Search -->
+            <div class="search-container">
+
+                <span class="search-icon">⌕</span>
+
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search for a ballet, variation or composer..."
+                    autocomplete="off"
+                >
+
+            </div>
+
+
+            <!-- Music Cards -->
+            <div class="collection-grid" id="musicGrid"></div>
+
+
+            <div class="empty-message" id="emptyMessage">
+                No sheet music found. Try another search.
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- Sheet Music Viewer -->
+    <div class="viewer-overlay" id="viewerOverlay">
+
+        <div class="viewer">
+
+            <div class="viewer-header">
+
+                <div>
+                    <div class="viewer-label">PSMBR SHEET MUSIC</div>
+                    <h2 id="viewerTitle">Piano Piece</h2>
+                </div>
+
+                <button class="viewer-close" id="viewerClose" aria-label="Close viewer">
+                    ×
+                </button>
+
+            </div>
+
+
+            <div class="viewer-pages" id="viewerPages"></div>
+
+
+            <div class="viewer-footer">
+                <span id="viewerPageCount">0 pages</span>
+                <span>PSMBR · Piano Sheet Music for Ballet Repertoire</span>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="footer-top">
+
+            <div class="footer-brand">
+                <span class="logo-main">PSMBR</span>
+                <p>Piano Sheet Music for Ballet Repertoire</p>
+            </div>
+
+            <div class="footer-note">
+                Celebrating the music<br>
+                behind classical ballet.
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <span>© 2026 PSMBR. All rights reserved.</span>
+            <span>Thanks For Visiting!</span>
+            <span>PIANO SHEET MUSIC FOR BALLET REPERTOIRE</span>
+        </div>
+
+    </footer>
+
+</body>
+</html>
