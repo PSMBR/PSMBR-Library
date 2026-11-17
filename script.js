@@ -73,6 +73,21 @@ const sheetMusic = [
         audio: "audio.mp3"
     },
 
+      {
+        title: "Le Corsaire – Ali Variation (Act II)",
+        composer: "Riccardo Drigo",
+        category: "Ballet Variation",
+
+        folder: "Le Corsaire – Ali Variation (Act II)",
+
+        pages: [
+            "Page-1.png",
+            "Page-2.png"
+        ],
+
+        audio: "audio.mp3"
+    },
+
     {
         title: "Sleeping Beauty – Male Variation (Act II)",
         composer: "Tchaikovsky",
