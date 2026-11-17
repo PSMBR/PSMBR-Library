@@ -502,7 +502,7 @@ const snowLabel = document.getElementById("snowLabel");
 function getFilePath(piece, filename) {
 
     return (
-        "./SheetMusic/" +
+        "./Library-P2/" +
         encodeURIComponent(piece.folder) +
         "/" +
         encodeURIComponent(filename)
