@@ -212,7 +212,7 @@ const sheetMusic = [
 
     {
         title: "Giselle - Giselle’s Variation (Act I)",
-        composer: "Tchaikovsky",
+        composer: "Ludwig Minkus",
         category: "Ballet Variation",
 
         folder: "Giselle - Giselle’s Variation (Act I)",
