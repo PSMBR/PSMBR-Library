@@ -3,7 +3,7 @@
    PSMBR SHEET MUSIC COLLECTION
 ========================================= */
 
-console.log("Script.js Version 1.2");
+console.log("Script.js Version 1.3");
 console.log("index.html Version 1.1");
 console.log("style.css Version 1.3");
 console.log("SnowScript.js Version 1.1");
@@ -212,7 +212,7 @@ const sheetMusic = [
 
     {
         title: "Giselle - Giselle’s Variation (Act I)",
-        composer: "Ludwig Minkus",
+        composer: "Adolphe Adam",
         category: "Ballet Variation",
 
         folder: "Giselle - Giselle’s Variation (Act I)",
